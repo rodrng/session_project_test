@@ -1,0 +1,108 @@
+/** aside 왼쪽 메뉴 css **/
+
+aside {
+    width:200px;
+    float:left;
+}
+
+/* 로그인 박스 */
+aside #login_box {
+    width:188px;
+    height:120px;
+    border:solid 1px #dddddd;
+    border-radius:10px;
+    background-color:#f3f3f3;
+    margin-bottom:10px;
+}
+
+aside #input_button {
+    margin:10px 0 0 10px; /* top,left 여백 10px 지정 */
+}
+
+aside #login_title {
+    margin:0 0 10px 10px; /* 로그인 타이틀의 bottom, left 여백 10px 지정 */
+}
+
+aside #login_input {
+    float:left;
+}
+
+aside #login_input input {
+    width:100px;
+    height:20px;
+    border:solid 1px #dddddd;
+}
+
+aside #login_btn {
+    float:left;
+    margin:3px 0 0 5px; /* 로그인 버튼의 left 여백 5px 지정 */
+}
+
+aside #join_search {
+    margin:10px 0 0 5px;
+}
+
+aside #login_input li {
+    margin:2px 0 0 0;
+}
+
+/* 방명록 */
+aside #guestbook {
+    width:190px;
+    height:140px;
+    background-color:#eeeeee;
+    border:solid 1px #cccccc;
+    border-radius:10px;
+    box-shadow:2px 2px 5px #dddddd;
+    margin:15px 0 0 0;
+}
+
+aside #guestbook li {
+    list-style-image:url("../img/icon_blue.gif");
+    margin:5px 0 0 0;
+}
+
+aside #guestbook ul {
+    margin:10px 0 0 40px;
+}
+
+aside #guestbook_title {
+    margin:0 0 0 10px;
+    border-bottom:solid 1px #cccccc;
+    padding:10px 0 0 5px;
+    width:165px;
+}
+
+/* 서브 메뉴 */
+aside #sub_menu {
+    margin:15px 0 0 0;
+    width:190px;
+    height:320px;
+    background-image:url("../img/sub_menu_bg.png");
+    background-repeat:no-repeat;
+}
+
+aside #sub_menu ul {
+    padding:80px 0 0 30px;
+}
+
+aside #sub_menu li {
+    margin-top:10px;
+}
+
+/* 서브 배너 */
+aside #sub_banner {
+    width:190px;
+    height:160px;
+    border:solid 1px #cccccc;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+aside #sub_banner ul {
+    padding:5px 0 0 5px;
+}
+
+
+
+

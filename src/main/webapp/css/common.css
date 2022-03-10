@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family:"맑은 고딕","굴림","돋움";
+    font-size:12px;
+    color:#444444;
+}
+
+ul {
+    list-style-type:none;
+}
+
+.clear {
+    clear:both;
+}
+
+#wrap {
+    width:970px;
+    margin:0 auto;
+}
+
+a:link {
+    text-decoration:none;
+    color:#444444;
+}
+
+a:hover {
+    text-decoration:underline;
+    color:#000000;
+}
+
+a:visited {
+    color:#444444;
+}
+
+
+

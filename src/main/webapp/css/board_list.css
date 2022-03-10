@@ -1,0 +1,102 @@
+/** 게시판 목록 board_list.CSS **/
+
+main #board_title {
+    margin-top:20px;
+    border-bottom:solid 1px #bbbbbb;
+    padding:0 0 5px 0;
+}
+
+main #total_search {
+    position:relative;
+    height:40px;
+
+}
+
+main #total {
+    position:absolute;
+    top:10px;
+}
+
+main #search {
+    position:absolute;
+    left:420px;
+}
+
+main #search #search_img {
+    position:absolute;
+    top:10px;
+}
+
+main #search #search_select {
+    position:absolute;
+    top:10px;
+    left:62px;
+}
+
+main #search #search_input {
+    position:absolute;
+    top:9px;
+    left:131px;
+}
+
+main #search input {
+    width:150px;
+    height:20px;
+    border:solid 1px #dddddd;
+}
+
+main #search #search_button {
+    position:absolute;
+    top:8px;
+    left:290px;
+}
+
+/* 게시판 목록 테이블 */
+main table {
+    border-collapse:collapse;/* 표의 테두리와 셀 테두리 사이의 간격을 제거 */
+
+    margin:0 auto;
+    width:100%;
+}
+
+main table tr {
+    height:30px;
+}
+
+main table th {
+    background-color:#eeeeee;
+    border-top:solid 2px #aaaaaa;
+}
+
+main table td {
+    border-bottom:solid 1px #dddddd;
+}
+
+main table td.col1 {
+    text-align:center;
+}
+
+main table td.col3 {
+    text-align:center;
+}
+
+main table td.col4 {
+    text-align:center;
+}
+
+main table td.col5 {
+    text-align:center;
+}
+
+main #move_page {
+    margin-top:20px;
+}
+
+main #move_page .prev_next {
+    float:left;
+    margin-left:280px;
+}
+
+main #move_page .list_write {
+    float:right;
+}

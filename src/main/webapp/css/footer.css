@@ -1,0 +1,25 @@
+/* footer CSS */
+
+footer {
+    margin:30px 0 0 0;
+    border-top:solid 1px #bbbbbb;
+}
+
+footer #footer_logo {
+    float:left;
+    margin:10px 0 0 200px;
+}
+
+footer #address {
+    float:left;
+    margin:25px 0 0 50px;
+}
+
+footer #footer_sns {
+    float:right;
+    margin:25px 10px 0 0;
+}
+
+footer #footer_sns li {
+    display:inline;
+}
